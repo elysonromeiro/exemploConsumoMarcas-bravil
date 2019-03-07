@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CadastroMarcaFragment">
+
+    <EditText
+        android:id="@+id/descricao_cadastro_marca"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Digite aqui..."
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/botao_cadastro_marca"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/botoes_shape"
+        android:text="Cadastrar" />
+
+</FrameLayout>
